@@ -58,6 +58,22 @@
             .steam-button:hover {
                 background-color: #2a2f3a;
             }
+        .trailer-button {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+            .trailer-button:hover{
+                background-color: red;
+            }
+
     </style>
 
     <title></title>
@@ -70,9 +86,10 @@
         <h1>Solo Leveling: Arise</h1>
         <nav>
             <ul>
-                <li><a href="#about">Про гру</a></li>
-                <li><a href="#characters">Персонажі</a></li>
-                <li><a href="#download">Завантажити</a></li>
+                <li><a href="#about">О игре</a></li>
+                <li><a href="#characters">Персонажи</a></li>
+                <li><a href="#download">Скачать</a></li>
+                <li><a href="#trailer">Трейлер </a></li>
             </ul>
         </nav>
     </header>
@@ -82,44 +99,52 @@
             <source src="trailer.mp4" type="video/mp4">
         </video>
         <div class="overlay">
-            <h2>Стати найсильнішим мисливцем!</h2>
-            <p>Відкрий силу Джин У та пройди шлях сходження.</p>
+            <h2>Стань сильнейшим охотником!</h2>
+            <p>Открой силу Джина У и пройди путь восхождения.</p>
             <a href="#download" class="btn">Играть</a>
         </div>
     </section>
 
     <section id="about">
         <h2>О игре</h2>
-        <p>Solo Leveling: Arise — динамічна екшен-RPG, заснована на популярній манхві. Воюй з монстрами, керуй тінями і стань героєм!</p>
+        <p>Solo Leveling: Arise — динамичная экшен-RPG, основанная на популярной манхве. Сразись с монстрами, управляй тенями и стань героем!</p>
     </section>
 
     <section id="characters">
-        <h2>Персонажі</h2>
+        <h2>Персонажи</h2>
         <div class="carousel">
             <img src="/Games/son.jpg" alt="Сон Джин У">
-
             <img src="/Games/hein.jpg" alt="Чха Хэ Ин">
             <img src="/Games/Beak.jpg" alt="Бэк Юн Хо">
         </div>
     </section>
+    <section id="trailer">
+        <h2>Трейлер игры</h2>
+        <p>Смотреть трейлер игры</p>
+        <a class="trailer-button"
+           href="https://www.youtube.com/watch?v=z8HAzlv61uc"
+           target="_blank">
+            Смотреть трейлер
+        </a>
+    </section>
 
     <section id="download">
-        <h2>Завантажити</h2>
-        <p>Гра доступна на PC, Android та iOS. Почни свою пригоду прямо зараз!</p>
+        <h2>Скачать</h2>
+        <p>Игра доступна на PC, Android и iOS. Начни своё приключение прямо сейчас!</p>
         <a class="play-market-button"
            href="https://play.google.com/store/apps/details?id=com.netmarble.sololv&hl=ru&gl=US"
            target="_blank">
-            Завантажити в Play Market
+            Скачать в Play Market
         </a>
         <a class="appstore-button"
            href="https://apps.apple.com/app/id6475981443"
            target="_blank">
-            Завантажити в App Store
+            Скачать в App Store
         </a>
         <a class="steam-button"
            href=https://store.steampowered.com/app/2373990/Solo_LevelingARISE/"
            target="_blank">
-            Завантажити в Steam
+            Скачать в Steam
         </a>
     </section>
 
